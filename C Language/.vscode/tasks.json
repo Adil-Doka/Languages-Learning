@@ -1,0 +1,32 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build and Run C Program",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "${file}",
+                "-o",
+                "T:\\Languages\\C\\exe_files\\${fileBasenameNoExtension}.exe"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "Generated task for C build."
+        },
+        {
+            "label": "Run C Program",
+            "type": "shell",
+            "command": "\"T:\\Languages\\C\\exe_files\\${fileBasenameNoExtension}.exe\"",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [],
+            "detail": "Runs the compiled C program."
+        }
+    ]
+}

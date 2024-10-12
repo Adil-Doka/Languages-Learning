@@ -1,0 +1,15 @@
+{
+    "code-runner.executorMap": {
+        
+        // made chages to save the exe files in another folder and compile it
+         "c": "cd $dir && gcc $fileName -o T:\\Languages\\C\\exe_files\\$fileNameWithoutExt && T:\\Languages\\C\\exe_files\\./$fileNameWithoutExt"
+         
+        //  orginal code
+        // "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && ./$fileNameWithoutExt"
+    },
+    "code-runner.runInTerminal": true,
+
+
+    "pieces.cloudCapabilities": "Blended",
+    "pieces.telemetry": true
+}
